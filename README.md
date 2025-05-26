@@ -1,8 +1,8 @@
-# A mid-size manufacturer struggles to keep the right amount of finished-goods inventory on hand. Stock-outs on high-revenue products hurt sales, while excess inventory ties up cash and warehouse space.
+### A mid-size manufacturer struggles to keep the right amount of finished-goods inventory on hand. Stock-outs on high-revenue products hurt sales, while excess inventory ties up cash and warehouse space.
 Goal: Use raw transactions, sales, and open-order data to find the SKUs that matter most and prescribe the cheapest, service-level-safe replenishment rules for each class of items.
 
 
-# Solution Approach
+### Solution Approach
 Data wrangling:
 Merge the three files → master table with demand frequency, total demand, unit economics.
 ABC analysis:
